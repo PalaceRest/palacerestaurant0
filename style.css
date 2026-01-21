@@ -1,0 +1,128 @@
+body {     
+            margin: 10px;;
+             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif Arial, Helvetica, sans-serif;
+            background:#000103 ;
+            color:white;
+        }
+
+        header{
+             background:#111;
+             color:rgba(255, 255, 255, 0.941);
+              padding:20px 50px;
+             display: flex; 
+             justify-content:space-between;
+             align-items:center; 
+             position:sticky;
+             top:0;
+             z-index:1000;
+        }
+        header h1 {margin: 0; font-size: 28px; }
+
+       nav a {
+           color:#060505(3, 3, 3); margin-left: 20px;
+            text-decoration: none;
+             font-size: 16px; 
+             font-weight: bold;
+       }
+       nav a:hover { color:•#f4b400; }
+         .hero {
+             background: url(download.jp);
+             height:90vh;
+             display:flex;
+             align-items:center;
+             justify-content:center;
+             text-align:center
+             }
+
+        header h1 { margin:0; font-size:28px; }
+        
+        nav a
+            { color:white;
+              margin-left:20px;
+             text-decoration: none;
+             font-size:16px;
+           font-weight:bold;
+        }
+
+        nav a:hover{color:•#f4b400; }
+
+         .hero {
+             background:url(image/ChatGPT\ Image\ Jan\ 19\,\ 2026\,\ 06_06_00\ PM.png);
+             height:90vh;
+             display:flex;
+             align-items:center;
+             justify-content:center;
+             text-align:center;
+             color:rgb(253, 253, 253);
+             padding:20px
+        }
+        .hero h2 {
+             font-size: 48px;
+              max-width: 800px;
+              height: gevh;
+             display: flex;
+             align-items:center;
+             justify-content: center;
+             text-align:center;
+             color: rgb(255, 252, 252);
+             padding:20px
+        }
+        .hero h2{
+            font-size:48px;
+            max-width:800px
+        }
+
+         .hero p {
+            font-size:20px;
+            margin:20px auto; 
+            max-width:600px;
+        }
+
+        .cta-btn {
+            background:•#f7b10f;
+            color: #f8f7f7;
+            padding: 15px 30px;
+            border:none;
+            border-radius:8px; 
+            font-size:18px; 
+            cursor:pointer;
+            font-weight: bold;
+ }
+
+ .section-title {
+         text-align:center;
+         font-size: 32px;
+         margin-top: 70px; 
+         margin-bottom: 30px;
+        }
+ .services {
+         display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+         gap: 25px;
+         padding: 0 50px 80px;
+}
+
+.services-card{ background: white;
+         background:white ;
+         border: radius 12px;
+         padding:20px;
+         box-shadow: o 4px 12px rgba(0,0,0,o.1);
+         text-align: center;
+    }
+
+    .services-card img {
+        width:100%;
+         height: 220px;
+         object-fit: cover;
+         border-radius: 10px;
+    }
+    .services-card h3{margin: 15px 0 10px; font: size 20px;} 
+    .services-card p {font: size 15px;}
+         
+           footer { 
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin: top 40px;
+           }

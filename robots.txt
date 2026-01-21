@@ -1,0 +1,6 @@
+ User=agent:*
+ Allow:/
+ Disallow:/private
+ Disallow:admin
+
+ sitemap: https://palacerest.github.io/palacerestaurant//sitemap.xml
